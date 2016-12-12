@@ -4,7 +4,7 @@
 
 ###1. Introduction
 
-This is tensorflow implementation of 'Asynchronous Methods for Deep Reinforcement Learning'.
+This is tensorflow implementation of 'Asynchronous Methods for Deep Reinforcement Learning'.(https://arxiv.org/abs/1602.01783)
 
 
 ###2. Usage
