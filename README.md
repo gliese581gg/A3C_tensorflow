@@ -17,6 +17,9 @@ This is tensorflow implementation of 'Asynchronous Methods for Deep Reinforcemen
     -net (A3C or AnDQN) : Network type (A3C or Asynchronous n-step DQN)
     -ckpt (ckpt file path) : checkpoint file (including path)
     -LSTM (True or False) : whether or not use LSTM layer
+    
+    Usage for tensorboard : tensorboard --logdir (your_log_directory) --port (your_port_number)
+                            url for tensorboard will appear on terminal:)
 
 
 ###3. Requirements:
