@@ -73,7 +73,7 @@ def build_local(params,net_name,device="/gpu:0"):
 				cells = rnn_cell.BasicLSTMCell(params['dim_fc'], forget_bias=1.0,state_is_tuple=True)
 				LSTM_h_ph = tf.placeholder('float',[1,params['dim_fc']])  #batch,dim	
 				LSTM_c_ph = tf.placeholder('float',[1,params['dim_fc']]) 	
-				state_tuple = tf.nn.rnn_cell.LSTMStateTuple(LSTM_h_ph,LSTM_c_ph)	
+				state_tuple = tf.nn.rnn_cell.LSTMStateTuple(LSTM_c_ph,LSTM_h_ph)	
 				fc2 = tf.reshape(fc2,[1,-1,fc2.get_shape().as_list()[-1]])
 				unroll = tf.placeholder(tf.int32,[1])
 				fc2, fc2_state = tf.nn.dynamic_rnn(cells,fc2,initial_state = state_tuple,sequence_length = unroll)
