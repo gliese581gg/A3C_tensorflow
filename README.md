@@ -6,6 +6,8 @@
 
 This is tensorflow implementation of 'Asynchronous Methods for Deep Reinforcement Learning'.(https://arxiv.org/abs/1602.01783)
 
+You can also check batch version of A3C (https://github.com/gliese581gg/batch-A3C_tensorflow)
+
 
 ###2. Usage
 
