@@ -46,4 +46,5 @@ AnDQN is not tested yet!
 ###5. Changelog
 
 -2016.12.12 : First upload!
+
 -2016.12.19 : Bug fix in Net_A3C.py (LSTM state bug) 
